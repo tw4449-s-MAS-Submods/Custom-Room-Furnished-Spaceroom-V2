@@ -7,9 +7,9 @@ This submod adds a complete set of Spaceroom furniture for you and Monika.
 
 ## Instructions:
 
-1. Go to the "Releases" tab on the right this webpage, then click on the latest version of "location.submod.zip". It should begin automatically downloading.
-2. Unzip and open the folder called 'location selector submod' (it should be in your 'Downloads' folder).
-3. From the location selector submod folder, copy the 'game' and 'lib' folders into the main 
+1. Go to the "Releases" tab on the right this webpage(or click [HERE](https://github.com/tw4449/Custom-Room-Custom-Room-Furnished-Spaceroom-v2/releases)), then click on the latest version of "Furnished_Spaceroom_V1.zip". It should begin automatically downloading.
+2. Unzip and open the folder called 'Furnished_Spaceroom_V1' (it should be in your 'Downloads' folder).
+3. From the Furnished_Spaceroom_V1 folder, copy the 'game' and 'lib' folders into the main 
    'Doki Doki Literature Club' folder (AKA, the folder where you see 'DDLC.exe').
 4. Launch MAS, and the rooms should be available. Monika will explain how to use them after a minute or so.
 
@@ -20,13 +20,13 @@ And that's it! It's that simple.
 
 I have other rooms available! They can be found here:
 
--[Spaceroom v1](https://github.com/Cdino11/Custom-Room-Furnished-Spaceroom-V1)
+-[Spaceroom v1](https://github.com/tw4449/Custom-Room-Furnished-Spaceroom-V1)
 
--[Spaceroom v3](https://github.com/Cdino11/Custom-Room-Furnished-Spaceroom-V3)
+-[Spaceroom v3](https://github.com/tw4449/Custom-Room-Furnished-Spaceroom-V3)
 
--[Den](https://github.com/Cdino11/Custom-Room-Den)
+-[Den](https://github.com/tw4449/Custom-Room-Den)
 
--[Kitchen](https://github.com/Cdino11/Custom-Room-Kitchen)
+-[Kitchen](https://github.com/tw4449/Custom-Room-Kitchen)
 
 ## Troubleshooting:
 
