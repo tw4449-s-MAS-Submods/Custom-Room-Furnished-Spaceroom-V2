@@ -20,7 +20,11 @@ And that's it! It's that simple.
 
 I have other rooms available! They can be found here:
 
+-[Spaceroom v1](https://github.com/Cdino11/Custom-Room-Furnished-Spaceroom-V1)
+
 -[Spaceroom v3](https://github.com/Cdino11/Custom-Room-Furnished-Spaceroom-V3)
+
+-[Den](https://github.com/Cdino11/Custom-Room-Den)
 
 -[Kitchen](https://github.com/Cdino11/Custom-Room-Kitchen)
 
