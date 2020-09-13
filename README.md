@@ -11,7 +11,7 @@ This submod adds a complete set of Spaceroom furniture for you and Monika.
 2. Unzip and open the folder called 'Furnished_Spaceroom_V2' (it should be in your 'Downloads' folder).
 3. From the Furnished_Spaceroom_V2 folder, copy the 'game' and 'lib' folders into the main
    'Doki Doki Literature Club' folder (AKA, the folder where you see 'DDLC.exe').
-4. Launch MAS, and the room should be available. Monika will explain how to use them after a minute or so.
+4. If you have 400+ affection: Launch MAS, and the room will be available. Monika will explain how to use it after a minute or so. If you have less than 400 affection: Launch MAS, and Monika should comment you added it, but you can't use it just yet. Once you reach 400 affection, you can find the room under "Hey, Monika..." > "Location" > "Can we go somewhere else?".
 
 And that's it! It's that simple.
 
@@ -33,6 +33,9 @@ I have other rooms available! They can be found here:
 -If the room doesn't show up or if you get an error, most likely the files weren't placed correctly. Repeat
    step 3, making sure to put the "game" and "lib" folders directly into the main "Doki Doki Literature Club"
    folder.
+   
+-Alternately, if the room hasn't shown up but Monika commented on it, you may not have 400 affection. You can check your 
+   affection level in your files at: 'Doki Doki Literature Club'>'log'>'aff_log.txt'
 
 -If the problem persists, there may another issue with your install of MAS. Go to the "issues" tab on this
    webpage and see if anyone else has had the same issue, and try any solutions posted there. If not, leave a
