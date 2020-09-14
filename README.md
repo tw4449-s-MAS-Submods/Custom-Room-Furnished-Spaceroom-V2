@@ -1,3 +1,4 @@
+![V2](https://preview.redd.it/mtx3rhb0bqm51.png?width=1920&format=png&auto=webp&s=c8a559410ccdab88aa61c725666996caa9b84477)
 # Custom-Room-Furnished-Spaceroom-V2
 This submod adds a complete set of Spaceroom furniture for you and Monika.
 
