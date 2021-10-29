@@ -4,7 +4,7 @@ init -990 python:
         author="tw4449 Cdino112 multimokia d3adpan Booplicate",
         name="Custom Room Furnished Spaceroom V2",
         description="This submod adds a complete set of Spaceroom furniture for you and Monika.",
-        version="1.0.5"
+        version="1.0.6"
     )
 
 # Register the updater
