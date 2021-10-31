@@ -163,9 +163,6 @@ init -2 python in mas_background:
             if not store.mas_inEVL("Furnished_spaceroom2_switch_dlg"):
                 store.pushEvent("Furnished_spaceroom2_switch_dlg")
 
-            store.mas_o31HideVisuals()
-            store.mas_d25HideVisuals()
-
         if store.seen_event("mas_monika_islands"):
            store.mas_unlockEVL("mas_monika_islands", "EVE")
 
@@ -173,14 +170,6 @@ init -2 python in mas_background:
         """
         Exit programming point for Furnished_spaceroom2 background
         """
-        #O31
-        if store.persistent._mas_o31_in_o31_mode:
-            store.mas_o31ShowVisuals()
-
-        #D25
-        elif store.persistent._mas_d25_deco_active:
-            store.mas_d25ShowVisuals()
-
         #Lock islands greet to be sure
         store.mas_lockEVL("mas_monika_islands", "EVE")
 
@@ -425,23 +414,6 @@ label monika_gotomonika_override:
 init 0 python:
     store.mas_utils.trydel(renpy.config.basedir.replace('\\', '/') + "/readme.md")
 
-init 1 python:
-    store.mas_submod_utils.registerFunction(
-        "greeting_o31_cleanup",
-        pushEvent,
-        args=["o31_room_explanation"]
-    )
-
-label o31_room_explanation:
-    m 1eud "Oh, by the way, [player]...{w=0.3}{nw}"
-    extend 3euc "you probably noticed we're back in the empty classroom."
-    m 1rksdlc "I didn't really have time to decorate any rooms other than this one..."
-    m 1eua "So if you don't mind, I'd like to stay here so we can enjoy the decorations together."
-    m 3eka "We can go back to the other rooms tomorrow, alright?"
-    m 1eka "Thanks for understanding, [mas_get_player_nickname()]~"
-
-    return
-
 init 5 python:
     addEvent(
         Event(
@@ -458,5 +430,4 @@ label D25_Deco:
     m 3hub "Yay! I can't wait to see how they look!~"
     m 1ekbsa "Thanks, [mas_get_player_nickname()], you really do spoil me."
     m 1hubsu "I love you so much."
-
     return
