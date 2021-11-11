@@ -164,7 +164,7 @@ init -2 python in mas_background:
                 store.pushEvent("Furnished_spaceroom2_switch_dlg")
 
         if store.seen_event("mas_monika_islands"):
-           store.mas_unlockEVL("mas_monika_islands", "EVE")
+            store.mas_unlockEVL("mas_monika_islands", "EVE")
 
     def _Furnished_spaceroom2_exit(_new, **kwargs):
         """
